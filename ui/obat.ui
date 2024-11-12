@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>431</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="id_obatLabel">
+      <property name="text">
+       <string>id_obat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="id_obatLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="id_supplierLabel">
+      <property name="text">
+       <string>id_supplier</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="id_supplierLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="id_golonganLabel">
+      <property name="text">
+       <string>id_golongan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="id_golonganLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="nama_obatLabel">
+      <property name="text">
+       <string>nama_obat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="nama_obatLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="harga_modalLabel">
+      <property name="text">
+       <string>harga_modal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="harga_modalLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="harga_jualLabel">
+      <property name="text">
+       <string>harga_jual</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="harga_jualLineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="stokLabel">
+      <property name="text">
+       <string>stok</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="stokLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="stok_minimalLabel">
+      <property name="text">
+       <string>stok_minimal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="stok_minimalLineEdit"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="keteranganLabel">
+      <property name="text">
+       <string>keterangan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="keteranganLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Simpan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>320</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ubah</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>320</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hapus</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Form Obat</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
